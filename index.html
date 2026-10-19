@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shadrack Kpani Odametey</title>
+<meta name="description" content="Shadrack Kpani Odametey – Outbound Problem Solver at Amazon, Saudi Arabia. Operations professional who understands the technology and data behind the warehouse floor.">
+<meta property="og:title" content="Shadrack Kpani Odametey – Operations & Logistics">
+<meta property="og:description" content="Keeping operations moving, where logistics meets technology. Open to operations, logistics and supply chain roles in Saudi Arabia.">
+<meta property="og:image" content="https://shadlabs.github.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta property="og:image:alt" content="Keeping Operations Moving – Where Logistics Meets Technology">
+<meta property="og:url" content="https://shadlabs.github.io/">
+<link rel="canonical" href="https://shadlabs.github.io/">
+<meta name="theme-color" content="#12291F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312291F'/%3E%3Cpath d='M6 22h7l6-12h7' fill='none' stroke='%236FA88A' stroke-width='2.5'/%3E%3Ccircle cx='19' cy='10' r='3.5' fill='%23E3B04B'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one column of alternating full-width bands (dark forest / off-white),
+   content held to a 1080px measure, spacing from one fluid scale. */
+:root {
+  /* Brand palette (from LinkedIn banner) */
+  --forest: #12291F;
+  --forest-2: #1A3A2C;      /* raised surface on dark */
+  --gold: #E3B04B;
+  --sage: #6FA88A;
+  --mist: #CFE0D6;          /* light text on dark */
+  --paper: #F7F5EF;
+  --ink: #12291F;           /* text on light = forest */
+  --ink-soft: #3E5A4C;      /* secondary text on light, 7:1 on paper */
+  --line-light: #DCE3D9;
+
+  /* Type */
+  --f-display: "Sora", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "IBM Plex Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Spacing scale: grows slightly from phone to desktop */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --s-6: clamp(1.75rem, 1.4rem + 1.2vw, 2.5rem);
+  --s-7: clamp(2.5rem, 2rem + 2vw, 4rem);
+  --s-8: clamp(3.5rem, 2.6rem + 3.6vw, 6rem);   /* section padding */
+
+  --measure: 1080px;
+  --radius: 10px;
+  color-scheme: light;
+}
+:root[lang="ar"] {
+  --f-display: "IBM Plex Sans Arabic", "Sora", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans Arabic", "IBM Plex Sans", system-ui, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--forest); }
+
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.2; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+
+/* ---------- Bands and wrapper ---------- */
+.band { padding-block: var(--s-8); }
+.band--dark { background: var(--forest); color: var(--mist); }
+.band--light { background: var(--paper); color: var(--ink); }
+.wrap {
+  max-width: calc(var(--measure) + 2 * 16px);
+  margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+.section-head { display: grid; gap: var(--s-3); margin-bottom: var(--s-6); max-width: 62ch; }
+.eyebrow {
+  font-family: var(--f-body); font-size: 0.8125rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft);
+  display: flex; align-items: center; gap: var(--s-3);
+}
+.eyebrow::before { content: ""; width: 28px; height: 2px; background: var(--sage); }
+.band--dark .eyebrow { color: var(--sage); }
+:root[lang="ar"] .eyebrow { letter-spacing: 0; }
+h2 { font-size: clamp(1.625rem, 1.3rem + 1.4vw, 2.25rem); font-weight: 600; }
+.band--dark h2 { color: #fff; }
+
+/* ---------- Header ---------- */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: rgba(18, 41, 31, 0.94);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(111, 168, 138, 0.18);
+}
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); min-height: 56px; }
+.brand { font-family: var(--f-display); font-weight: 600; color: #fff; text-decoration: none; font-size: 1rem; letter-spacing: 0.01em; }
+.brand span { color: var(--gold); }
+.topnav { display: flex; align-items: center; gap: var(--s-5); }
+.topnav a { color: var(--mist); text-decoration: none; font-size: 0.9375rem; }
+.topnav a:hover { color: #fff; }
+.topnav .nav-links { display: none; gap: var(--s-5); }
+@media (min-width: 860px) { .topnav .nav-links { display: flex; } }
+.lang-btn {
+  font: 600 0.875rem/1 var(--f-body);
+  color: var(--mist); background: transparent;
+  border: 1px solid rgba(207, 224, 214, 0.35); border-radius: 999px;
+  padding: 0.5rem 0.9rem; min-height: 40px; cursor: pointer;
+}
+.lang-btn:hover { border-color: var(--gold); color: #fff; }
+
+/* ---------- Buttons ---------- */
+.btns { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--s-2);
+  min-height: 48px; padding: 0.75rem 1.4rem;
+  font: 600 1rem/1.2 var(--f-body); text-decoration: none;
+  border-radius: 999px; border: 2px solid transparent; cursor: pointer;
+  transition: background-color .15s, color .15s, border-color .15s, transform .15s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--primary { background: var(--gold); color: var(--forest); }
+.btn--primary:hover { background: #EDC06A; }
+.btn--secondary { background: transparent; color: #fff; border-color: rgba(207, 224, 214, 0.55); }
+.btn--secondary:hover { border-color: var(--gold); }
+.btn--ghost-light { background: transparent; color: var(--forest); border-color: var(--forest); }
+.btn svg { width: 18px; height: 18px; flex: none; }
+@media (max-width: 479px) { .hero .btns .btn, .contact .btns .btn { flex: 1 1 100%; } }
+
+/* ---------- Hero ---------- */
+.hero { position: relative; overflow: hidden; padding-block: var(--s-7) var(--s-8); }
+.routes { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.6; }
+@media (max-width: 859px) { .routes { opacity: 0.35; } }
+[dir="rtl"] .routes { transform: scaleX(-1); }
+.hero .wrap { position: relative; display: grid; gap: var(--s-6); align-items: center; }
+@media (min-width: 860px) { .hero .wrap { grid-template-columns: 1fr auto; gap: var(--s-7); } }
+.hero-copy { display: grid; gap: var(--s-5); min-width: 0; }
+.hero-name { font: 600 0.9375rem/1.3 var(--f-body); letter-spacing: 0.04em; color: var(--gold); }
+:root[lang="ar"] .hero-name { letter-spacing: 0; }
+.hero h1 { font-size: clamp(2rem, 1.4rem + 3vw, 3.5rem); font-weight: 700; color: #fff; letter-spacing: -0.015em; max-width: 18ch; }
+:root[lang="ar"] .hero h1 { letter-spacing: 0; line-height: 1.35; }
+.hero h1 em { font-style: normal; color: var(--gold); }
+.hero-intro { font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem); max-width: 52ch; color: var(--mist); }
+.hero .btns { margin-top: var(--s-2); }
+.hero-meta { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); font-size: 0.9375rem; color: var(--sage); }
+.hero-meta span { display: inline-flex; align-items: center; gap: var(--s-2); }
+.hero-meta span::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--sage); }
+
+.headshot { order: -1; position: relative; width: clamp(132px, 30vw, 260px); aspect-ratio: 1; max-width: 100%; }
+@media (min-width: 860px) { .headshot { order: 0; } }
+.headshot img, .headshot .ph {
+  width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center 30%;
+  border: 3px solid var(--gold); background: var(--forest-2);
+}
+.headshot .ph { display: grid; place-items: center; font: 600 clamp(2.25rem, 7vw, 4.5rem)/1 var(--f-display); color: var(--mist); }
+.headshot::after { /* node marker: echoes the route motif */
+  content: ""; position: absolute; inset-inline-end: 8%; bottom: 8%;
+  width: 18px; height: 18px; border-radius: 50%; background: var(--gold);
+  border: 4px solid var(--forest);
+}
+
+/* ---------- About ---------- */
+.about-grid { display: grid; gap: var(--s-6); }
+@media (min-width: 860px) { .about-grid { grid-template-columns: 1.3fr 1fr; gap: var(--s-7); } }
+.about-text { display: grid; gap: var(--s-4); max-width: 62ch; min-width: 0; }
+.about-text p:first-child { font-size: 1.1875rem; color: var(--ink); }
+.about-text p { color: var(--ink-soft); }
+.strengths h3 { font: 600 0.8125rem/1.3 var(--f-body); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: var(--s-4); }
+:root[lang="ar"] .strengths h3 { letter-spacing: 0; }
+.tags { display: flex; flex-wrap: wrap; gap: var(--s-2); list-style: none; padding: 0; margin: 0; }
+.tags li {
+  padding: 0.45rem 0.85rem; border-radius: 999px; font-size: 0.9375rem; font-weight: 500;
+  background: #fff; border: 1px solid var(--line-light); color: var(--ink);
+}
+
+.strengths .edu-head { margin-top: var(--s-6); }
+.edu-degree { font: 600 1.0625rem/1.4 var(--f-display); }
+.edu-detail { color: var(--ink-soft); font-size: 0.9375rem; margin-top: var(--s-1); }
+
+/* ---------- Experience timeline ---------- */
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-6); position: relative; }
+.timeline::before { content: ""; position: absolute; inset-block: 10px 10px; inset-inline-start: 9px; width: 2px; background: rgba(111, 168, 138, 0.4); }
+.tl-item { position: relative; padding-inline-start: calc(20px + var(--s-5)); display: grid; gap: var(--s-2); }
+.tl-item::before {
+  content: ""; position: absolute; inset-inline-start: 0; top: 6px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--forest); border: 3px solid var(--sage);
+}
+.tl-item.current::before { background: var(--gold); border-color: var(--gold); box-shadow: 0 0 0 5px rgba(227, 176, 75, 0.2); }
+.tl-dates { font: 500 0.875rem/1.3 var(--f-body); color: var(--sage); font-variant-numeric: tabular-nums; }
+.tl-item h3 { font-size: clamp(1.1875rem, 1.1rem + 0.4vw, 1.375rem); font-weight: 600; color: #fff; }
+.tl-org { color: var(--gold); font-weight: 500; font-size: 0.9375rem; }
+.tl-item ul { margin: var(--s-2) 0 0; padding-inline-start: 1.1rem; display: grid; gap: var(--s-1); max-width: 62ch; }
+.tl-item li::marker { color: var(--sage); }
+.step-label { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--forest); background: var(--gold); padding: 0.15rem 0.55rem; border-radius: 4px; justify-self: start; }
+:root[lang="ar"] .step-label { letter-spacing: 0; }
+.labels { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.note-label { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8125rem; font-weight: 600; color: var(--gold); border: 1px solid rgba(227, 176, 75, 0.5); padding: 0.15rem 0.6rem; border-radius: 4px; }
+.note-label::before { content: "↑"; font-weight: 700; }
+
+/* ---------- Projects ---------- */
+.cards { display: grid; gap: var(--s-5); }
+@media (min-width: 760px) { .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.card {
+  background: #fff; border: 1px solid var(--line-light); border-radius: var(--radius);
+  padding: var(--s-5); display: grid; gap: var(--s-4); align-content: start; min-width: 0;
+}
+.card h3 { font-size: 1.1875rem; font-weight: 600; }
+.card dl { margin: 0; display: grid; gap: var(--s-4); }
+.card dt { font: 600 0.75rem/1.3 var(--f-body); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); display: flex; align-items: center; gap: var(--s-2); }
+:root[lang="ar"] .card dt { letter-spacing: 0; }
+.card dt::before { content: ""; width: 8px; height: 8px; border-radius: 50%; border: 2px solid var(--sage); }
+.card dd { margin: var(--s-1) 0 0; font-size: 0.96875rem; color: var(--ink); }
+.card .result dt::before { background: var(--gold); border-color: var(--gold); }
+.card .result dd { font-weight: 600; }
+.card { grid-template-rows: auto 1fr auto; }
+.card-link { justify-self: start; display: inline-flex; align-items: center; gap: var(--s-1); min-height: 44px; padding-top: var(--s-2); font-weight: 600; font-size: 0.9375rem; color: var(--forest); text-underline-offset: 3px; text-decoration-color: var(--gold); text-decoration-thickness: 2px; }
+.section-lead { color: var(--ink-soft); max-width: 60ch; }
+
+/* ---------- Certifications ---------- */
+.certs { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.cert {
+  display: grid; gap: var(--s-2) var(--s-5); align-items: center;
+  padding: var(--s-5); border: 1px solid var(--line-light); border-radius: var(--radius); background: #fff;
+}
+@media (min-width: 680px) { .cert { grid-template-columns: 1fr auto; } }
+.cert-main { display: grid; gap: var(--s-1); min-width: 0; }
+.cert-name { font: 600 1.0625rem/1.35 var(--f-display); display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.cert-meta { color: var(--ink-soft); font-size: 0.9375rem; }
+.badge { font: 600 0.75rem/1 var(--f-body); padding: 0.35rem 0.6rem; border-radius: 999px; background: #FBEFD3; color: #6B4A0B; border: 1px solid #EBCB85; white-space: nowrap; }
+.cert-link { font-weight: 600; font-size: 0.9375rem; color: var(--forest); text-underline-offset: 3px; text-decoration-color: var(--sage); text-decoration-thickness: 2px; justify-self: start; display: inline-flex; align-items: center; gap: var(--s-1); min-height: 44px; }
+.cert-link.disabled { color: var(--ink-soft); text-decoration: none; font-weight: 500; }
+
+.credly-link { display: inline-flex; align-items: center; gap: var(--s-1); min-height: 44px; margin-top: var(--s-4); font-weight: 600; font-size: 0.9375rem; color: var(--forest); text-underline-offset: 3px; text-decoration-color: var(--sage); text-decoration-thickness: 2px; }
+
+/* ---------- Contact ---------- */
+.contact .wrap { display: grid; gap: var(--s-6); }
+.contact-lead { font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem); max-width: 54ch; }
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); font-size: 0.9375rem; }
+.email-row code { font-family: var(--f-body); color: #fff; font-size: 1rem; user-select: all; word-break: break-all; }
+.copy-btn { font: 600 0.8125rem/1 var(--f-body); color: var(--gold); background: transparent; border: 1px solid rgba(227, 176, 75, 0.5); border-radius: 999px; padding: 0.45rem 0.8rem; min-height: 36px; cursor: pointer; }
+.secondary-links { display: flex; flex-wrap: wrap; gap: var(--s-3); padding-top: var(--s-5); border-top: 1px solid rgba(111, 168, 138, 0.25); }
+.link-chip { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; padding: 0.5rem 1rem; border-radius: 999px; text-decoration: none; color: var(--mist); border: 1px solid rgba(111, 168, 138, 0.45); font-weight: 500; }
+.link-chip:hover { border-color: var(--gold); color: #fff; }
+.link-chip svg { width: 18px; height: 18px; }
+
+footer { background: var(--forest); color: var(--sage); font-size: 0.875rem; padding-block: var(--s-5); border-top: 1px solid rgba(111, 168, 138, 0.18); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s-2); }
+
+[dir="rtl"] .flip { transform: scaleX(-1); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Shadrack Kpani Odametey", "jobTitle": "Pack Process Assistant / Outbound Problem Solver", "url": "https://shadlabs.github.io/", "image": "https://shadlabs.github.io/headshot.jpg", "email": "mailto:workwithshadrack@gmail.com", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}, "alumniOf": "Kings University College, Ghana", "sameAs": ["https://www.linkedin.com/in/shadrack-odametey", "https://github.com/ShadLabs", "https://www.credly.com/users/shadrack-odametey"]}</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">Shadrack <span>K.</span> Odametey</a>
+    <nav class="topnav" aria-label="Main">
+      <div class="nav-links">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+      <button class="lang-btn" id="langBtn" type="button" lang="ar" aria-label="عرض الصفحة بالعربية">العربية</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- 1. HERO -->
+  <section class="band band--dark hero" aria-labelledby="heroTitle">
+    <svg class="routes" viewBox="0 0 1200 600" preserveAspectRatio="xMaxYMid slice" aria-hidden="true">
+      <g stroke="#6FA88A" stroke-opacity="0.09" stroke-width="1"><path d="M66 0V600"/><path d="M198 0V600"/><path d="M330 0V600"/><path d="M462 0V600"/><path d="M594 0V600"/><path d="M726 0V600"/><path d="M858 0V600"/><path d="M990 0V600"/><path d="M1122 0V600"/><path d="M0 66H1200"/><path d="M0 132H1200"/><path d="M0 198H1200"/><path d="M0 264H1200"/><path d="M0 330H1200"/><path d="M0 396H1200"/><path d="M0 462H1200"/><path d="M0 528H1200"/><path d="M0 594H1200"/></g>
+      <g fill="none" stroke="#6FA88A" stroke-width="2" stroke-opacity="0.55">
+        <path d="M600 462H760L840 330H1000L1080 198H1240"/>
+      </g>
+      <g fill="none" stroke="#6FA88A" stroke-width="2" stroke-opacity="0.45" stroke-dasharray="5 7">
+        <path d="M680 132H880L940 330"/>
+        <path d="M1000 330L1080 462H1240"/>
+      </g>
+      <g fill="#12291F" stroke="#6FA88A" stroke-width="2" stroke-opacity="0.7">
+        <circle cx="600" cy="462" r="7"/><circle cx="680" cy="132" r="7"/><circle cx="840" cy="330" r="7"/>
+      </g>
+      <rect x="749" y="451" width="22" height="22" rx="2" fill="#6FA88A" fill-opacity="0.6"/>
+      <rect x="1069" y="187" width="22" height="22" rx="2" fill="#E3B04B" fill-opacity="0.85"/>
+      <circle cx="1000" cy="330" r="9" fill="#E3B04B" fill-opacity="0.9"/>
+    </svg>
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="hero-name">Shadrack Kpani Odametey</p>
+        <h1 id="heroTitle" data-i18n-html="hero.title">Keeping Operations Moving — <em>Where Logistics Meets Technology</em></h1>
+        <p class="hero-intro" data-i18n="hero.intro">Outbound Problem Solver at Amazon in Saudi Arabia, with a Computer Science degree and a focus on the data and systems that keep shipments on time.</p>
+        <div class="btns">
+          <a class="btn btn--primary" data-link="email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span data-i18n="btn.email">Email me</span>
+          </a>
+          <a class="btn btn--secondary" data-link="booking" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+            <span data-i18n="btn.call">Book a 15-min call</span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span data-i18n="hero.loc">Saudi Arabia</span>
+          <span data-i18n="hero.open">Open to operations &amp; logistics roles</span>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="headshot.jpg" alt="Shadrack Kpani Odametey, smiling, in a dark green shirt" width="520" height="520" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT -->
+  <section class="band band--light" id="about" aria-labelledby="aboutTitle">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+        <h2 id="aboutTitle" data-i18n="about.title">Operations, backed by technology and data</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about.p1">I solve the problems that stop outbound shipments from leaving on time at Amazon in Saudi Arabia.</p>
+          <p data-i18n="about.p2">My Computer Science background helps me read what the warehouse management system is telling us, trace issues to their root cause, and fix the process rather than the symptom.</p>
+          <p data-i18n="about.p3">I'm building toward operations leadership, where I can combine floor experience with data to make teams faster and more reliable.</p>
+        </div>
+        <div class="strengths">
+          <h3 data-i18n="about.strengths">Core strengths</h3>
+          <ul class="tags" id="tags"></ul>
+          <h3 class="edu-head" data-i18n="about.education">Education</h3>
+          <p class="edu-degree" id="eduDegree"></p>
+          <p class="edu-detail" id="eduDetail"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. EXPERIENCE -->
+  <section class="band band--dark" id="experience" aria-labelledby="expTitle">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="exp.eyebrow">Experience</p>
+        <h2 id="expTitle" data-i18n="exp.title">From the floor to problem solving</h2>
+      </div>
+      <ol class="timeline" id="timeline"></ol>
+    </div>
+  </section>
+
+  <!-- 4. PROJECTS -->
+  <section class="band band--light" id="projects" aria-labelledby="projTitle">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="proj.eyebrow">Projects</p>
+        <h2 id="projTitle" data-i18n="proj.title">Tools I've built for the floor</h2>
+        <p class="section-lead" data-i18n="proj.lead">Working web tools I designed and built, each in English and Arabic. Figures inside them are sample data.</p>
+      </div>
+      <div class="cards" id="projectCards"></div>
+    </div>
+  </section>
+
+  <!-- 5. CERTIFICATIONS -->
+  <section class="band band--light" id="certifications" aria-labelledby="certTitle" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="cert.eyebrow">Certifications</p>
+        <h2 id="certTitle" data-i18n="cert.title">Learning I can verify</h2>
+      </div>
+      <ul class="certs" id="certList"></ul>
+      <a class="credly-link" id="credlyLink" target="_blank" rel="noopener"><span data-i18n="cert.all">See all 10 badges on Credly</span> <span class="flip" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <!-- 6. CONTACT -->
+  <section class="band band--dark contact" id="contact" aria-labelledby="contactTitle">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:0">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h2 id="contactTitle" data-i18n="contact.title">Let's talk about your operations team</h2>
+        <p class="contact-lead" data-i18n="contact.lead">I'm open to operations, logistics, e-commerce and supply chain roles across Saudi Arabia. Email me or book a short intro call.</p>
+      </div>
+      <div class="btns">
+        <a class="btn btn--primary" data-link="email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span data-i18n="btn.email">Email me</span>
+        </a>
+        <a class="btn btn--secondary" data-link="booking" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          <span data-i18n="btn.call">Book a 15-min call</span>
+        </a>
+      </div>
+      <div class="email-row">
+        <span data-i18n="contact.or">Or copy my email:</span>
+        <code id="emailText"></code>
+        <button class="copy-btn" id="copyBtn" type="button" data-i18n="contact.copy">Copy</button>
+      </div>
+      <div class="secondary-links">
+        <a class="link-chip" data-link="linkedin" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.3 21 14.7V21h-4v-5.6c0-1.34-.03-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="link-chip" data-link="cv" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+          <span data-i18n="btn.cv">Download CV (PDF)</span>
+        </a>
+        <a class="link-chip" data-link="cv-other" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+          <span data-i18n="btn.cvOther" id="cvOtherLabel">Arabic CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Shadrack Kpani Odametey</span>
+    <span data-i18n="footer.loc">Based in Saudi Arabia</span>
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   EDIT HERE — everything you'll update lives in SITE below.
+   To add a certification or project: copy one { … } block,
+   paste it after the last one, add a comma, change the text.
+   ========================================================= */
+const SITE = {
+  links: {
+    email: "workwithshadrack@gmail.com",
+    booking: "https://calendar.app.google/ph4bh435ZzAuBBpw6",
+    linkedin: "https://www.linkedin.com/in/shadrack-odametey",
+    cv: "Shadrack-Odametey-CV.pdf",        // English CV (PDF next to this page)
+    cvAr: "Shadrack-Odametey-CV-Arabic.pdf"  // Arabic CV
+  },
+
+  strengths: [
+    { en: "Outbound Operations", ar: "عمليات الشحن الصادر" },
+    { en: "Root-Cause Problem Solving", ar: "حل المشكلات من جذورها" },
+    { en: "Quality Control", ar: "مراقبة الجودة" },
+    { en: "Process Improvement", ar: "تحسين العمليات" },
+    { en: "Team Coordination", ar: "تنسيق فرق العمل" },
+    { en: "Operational Data Analysis", ar: "تحليل البيانات التشغيلية" },
+    { en: "WMS", ar: "نظام إدارة المستودعات (WMS)" }
+  ],
+
+  // Newest first. Set current: true on your present role.
+  experience: [
+    {
+      current: true,
+      note: { en: "Selected for the role after 2 months", ar: "اختير للدور بعد شهرين" },
+      dates: { en: "September 2025 – Present", ar: "سبتمبر 2025 – حتى الآن" },
+      title: { en: "Pack Process Assistant / Outbound Problem Solver", ar: "مساعد عمليات التعبئة / حلّال مشكلات العمليات الصادرة" },
+      org: { en: "Amazon RUH8, Riyadh · via third-party employer", ar: "أمازون RUH8، الرياض · عبر مزوّد خدمات خارجي" },
+      points: [
+        { en: "Selected from the associate team after two months, based on consistent performance and support to leads during peak volume.", ar: "اختير من فريق الموظفين بعد شهرين بناءً على الأداء الثابت ودعم القادة خلال فترات ذروة الحجم." },
+        { en: "Lead Multi-Slam pack team activities across assigned shifts to keep workflow moving and targets on track.", ar: "قيادة أنشطة فريق التغليف Multi-Slam خلال الورديات المخصصة للحفاظ على سير العمل وتحقيق الأهداف." },
+        { en: "Monitor packer and process-path UPH against targets in Amazon's internal systems, and use that data to guide associate deployment.", ar: "متابعة إنتاجية موظفي التغليف ومسارات العمل (UPH) مقارنة بالأهداف عبر أنظمة أمازون الداخلية، واستخدام البيانات لتوجيه توزيع الموظفين." },
+        { en: "Coordinate with Area Managers and Supervisors to reassign associates across tasks and process paths as volume shifts.", ar: "التنسيق مع مديري المناطق والمشرفين لإعادة توزيع الموظفين بين المهام ومسارات العمل حسب تغيّر الحجم." },
+        { en: "Resolve outbound issues to protect order accuracy and quality standards.", ar: "معالجة مشكلات الشحن الصادر للحفاظ على دقة الطلبات ومعايير الجودة." },
+        { en: "Coach new associates and support Learning Ambassadors with training.", ar: "تدريب الموظفين الجدد ودعم سفراء التعلّم في التدريب." }
+      ]
+    },
+    {
+      dates: { en: "July 2025 – September 2025", ar: "يوليو 2025 – سبتمبر 2025" },
+      title: { en: "Warehouse Associate", ar: "عامل مستودع" },
+      org: { en: "Amazon RUH8, Riyadh · via third-party employer", ar: "أمازون RUH8، الرياض · عبر مزوّد خدمات خارجي" },
+      points: [
+        { en: "Consistently met the 120 UPH (units per hour) picking target and quality standards.", ar: "تحقيق هدف الانتقاء البالغ 120 وحدة في الساعة ومعايير الجودة باستمرار." },
+        { en: "Supported management during high-volume and peak demand periods.", ar: "دعم الإدارة خلال فترات الحجم المرتفع وذروة الطلب." },
+        { en: "Shared process knowledge with colleagues, team leads and supervisors.", ar: "مشاركة المعرفة بالعمليات مع الزملاء وقادة الفرق والمشرفين." }
+      ]
+    }
+  ],
+
+  education: {
+    degree: { en: "BSc Computer Science & Engineering", ar: "بكالوريوس علوم وهندسة الحاسب" },
+    detail: { en: "Kings University College, Ghana · 2019 – 2023 · Second Class Upper", ar: "كلية كينغز الجامعية، غانا · 2019 – 2023 · مرتبة الشرف الثانية العليا" }
+  },
+
+  // Your projects. "url" is the live link shown on the card.
+  projects: [
+    {
+      title: { en: "Labor Planning Calculator", ar: "حاسبة تخطيط القوى العاملة" },
+      url: "https://shadlabs.github.io/labor-planning-calculator/",
+      problem: { en: "A building can only ship as fast as its slowest process path, but shift staffing is often planned without showing where that bottleneck sits.", ar: "لا يمكن للمستودع أن يشحن أسرع من أبطأ مسار عمل لديه، ومع ذلك يُخطَّط توزيع الموظفين غالبًا دون إظهار موقع هذا الاختناق." },
+      did: { en: "Built a bilingual shift planner that turns a volume forecast and planned rates into headcount per path, after breaks, ramp-up and absenteeism.", ar: "طوّرت أداة تخطيط ثنائية اللغة تحوّل توقعات الحجم والمعدلات المخططة إلى عدد الموظفين المطلوب لكل مسار، بعد احتساب الاستراحات ووقت التهيئة والغياب." },
+      result: { en: "Flags the bottleneck path and suggests flex moves from surplus to short paths, limited to trained associates. Exports to CSV.", ar: "تحدد مسار الاختناق وتقترح نقل الفائض إلى المسارات الناقصة من الموظفين المدرَّبين فقط، مع التصدير إلى CSV." }
+    },
+    {
+      title: { en: "CPT Risk Board", ar: "لوحة مخاطر مواعيد الشحن (CPT)" },
+      url: "https://shadlabs.github.io/cpt-risk-board/",
+      problem: { en: "Teams often learn a CPT is at risk only when it is already too late to add packers or change pace.", ar: "غالبًا لا تكتشف الفرق أن موعد الشحن (CPT) في خطر إلا بعد فوات الأوان لإضافة موظفين أو تعديل الوتيرة." },
+      did: { en: "Built a live outbound tracker that projects the finish time for each CPT from packers on line, pack rate and units remaining.", ar: "طوّرت متتبعًا مباشرًا للشحن الصادر يتوقع وقت الانتهاء لكل موعد شحن بناءً على عدد موظفي التغليف ومعدلهم والوحدات المتبقية." },
+      result: { en: "Shows each CPT's buffer and status early, plus how many packers are needed to recover. Includes a dock screen view.", ar: "تعرض هامش الوقت وحالة كل موعد شحن مبكرًا، وعدد موظفي التغليف اللازمين للتعافي، مع شاشة عرض لمنطقة التحميل." }
+    },
+    {
+      title: { en: "KSA Helper", ar: "مساعد السعودية" },
+      url: "https://shadlabs.github.io/ksa-helper/",
+      problem: { en: "Residents in Saudi Arabia often don't know which official platform handles their problem, or when key documents expire.", ar: "كثيرًا ما لا يعرف المقيمون في المملكة المنصة الرسمية المختصة بمشكلتهم، أو مواعيد انتهاء وثائقهم المهمة." },
+      did: { en: "Built a bilingual guide with a problem finder that links to the right official service, and an expiry tracker for Iqama, passport and licence.", ar: "طوّرت دليلًا ثنائي اللغة يضم أداة للبحث عن المشكلة توجّه إلى الخدمة الرسمية الصحيحة، ومتتبعًا لانتهاء الإقامة والجواز والرخصة." },
+      result: { en: "A clear next step in a few taps. Expiry dates stay on the user's device and are never sent to a server.", ar: "خطوة تالية واضحة بنقرات قليلة، وتبقى تواريخ الانتهاء على جهاز المستخدم دون إرسالها إلى أي خادم." }
+    }
+  ],
+
+  // status: "done" or "in-progress". Leave url "" if no link yet.
+  // credly: link to the full badge profile, shown under the list.
+  credly: "https://www.credly.com/users/shadrack-odametey",
+  certifications: [
+    {
+      name: { en: "Google AI Professional Certificate", ar: "شهادة Google AI الاحترافية" },
+      issuer: "Google · Coursera",
+      date: { en: "September 2026", ar: "سبتمبر 2026" },
+      status: "done",
+      url: "https://www.credly.com/badges/3e1a9f05-9b76-4a74-95c7-a41656785f23"
+    },
+    {
+      name: { en: "Microsoft Certified: Power BI Data Analyst Associate (PL-300)", ar: "شهادة مايكروسوفت: محلل بيانات Power BI المعتمد (PL-300)" },
+      issuer: "Microsoft",
+      date: { en: "In progress", ar: "قيد الإنجاز" },
+      status: "in-progress",
+      url: ""
+    },
+    {
+      name: { en: "Google AI Essentials", ar: "أساسيات Google AI" },
+      issuer: "Google · Coursera",
+      date: { en: "September 2026", ar: "سبتمبر 2026" },
+      status: "done",
+      url: "https://www.credly.com/badges/1b028d78-e443-479b-8f1a-b5032c0c8949"
+    }
+  ]
+};
+
+/* ---------- Interface text (EN / AR) ---------- */
+const UI = {
+  en: {
+    "nav.about": "About", "nav.experience": "Experience", "nav.projects": "Projects", "nav.contact": "Contact",
+    "hero.title": "Keeping Operations Moving — <em>Where Logistics Meets Technology</em>",
+    "hero.intro": "Outbound Problem Solver at Amazon in Saudi Arabia, with a Computer Science degree and a focus on the data and systems that keep shipments on time.",
+    "hero.loc": "Saudi Arabia", "hero.open": "Open to operations & logistics roles",
+    "btn.email": "Email me", "btn.call": "Book a 15-min call", "btn.cv": "Download CV (PDF)", "btn.cvOther": "السيرة الذاتية بالعربية",
+    "about.eyebrow": "About", "about.title": "Operations, backed by technology and data",
+    "about.p1": "I solve the problems that stop outbound shipments from leaving on time at Amazon in Saudi Arabia.",
+    "about.p2": "My Computer Science background helps me read what the warehouse management system is telling us, trace issues to their root cause, and fix the process rather than the symptom.",
+    "about.p3": "I'm building toward operations leadership, where I can combine floor experience with data to make teams faster and more reliable.",
+    "about.strengths": "Core strengths", "about.education": "Education",
+    "exp.eyebrow": "Experience", "exp.title": "From the floor to problem solving", "exp.current": "Current role",
+    "proj.eyebrow": "Projects", "proj.title": "Tools I've built for the floor", "proj.lead": "Working web tools I designed and built, each in English and Arabic. Figures inside them are sample data.",
+    "proj.problem": "Problem", "proj.did": "What I did", "proj.result": "Result", "proj.view": "Open live tool",
+    "cert.eyebrow": "Certifications", "cert.title": "Learning I can verify",
+    "cert.inprogress": "In progress", "cert.all": "See all 10 badges on Credly", "cert.verify": "Verify", "cert.nolink": "Link available on completion",
+    "contact.eyebrow": "Contact", "contact.title": "Let's talk about your operations team",
+    "contact.lead": "I'm open to operations, logistics, e-commerce and supply chain roles across Saudi Arabia. Email me or book a short intro call.",
+    "contact.or": "Or copy my email:", "contact.copy": "Copy", "contact.copied": "Copied",
+    "footer.loc": "Based in Saudi Arabia",
+    "lang.label": "العربية", "lang.aria": "عرض الصفحة بالعربية"
+  },
+  ar: {
+    "nav.about": "نبذة", "nav.experience": "الخبرات", "nav.projects": "المشاريع", "nav.contact": "تواصل",
+    "hero.title": "استمرارية العمليات — <em>حيث تلتقي الخدمات اللوجستية بالتقنية</em>",
+    "hero.intro": "حلّال مشكلات الشحن الصادر في أمازون بالمملكة العربية السعودية، خريج علوم حاسب، أركّز على البيانات والأنظمة التي تضمن وصول الشحنات في موعدها.",
+    "hero.loc": "المملكة العربية السعودية", "hero.open": "متاح لفرص العمليات والخدمات اللوجستية",
+    "btn.email": "راسلني", "btn.call": "احجز مكالمة 15 دقيقة", "btn.cv": "تحميل السيرة الذاتية (PDF)", "btn.cvOther": "English CV",
+    "about.eyebrow": "نبذة", "about.title": "عمليات مدعومة بالتقنية والبيانات",
+    "about.p1": "أعالج المشكلات التي تؤخر خروج الشحنات الصادرة في أمازون بالمملكة العربية السعودية.",
+    "about.p2": "تساعدني خلفيتي في علوم الحاسب على فهم ما يعرضه نظام إدارة المستودعات، وتتبع المشكلات حتى أسبابها الجذرية، وإصلاح العملية بدلًا من العَرَض.",
+    "about.p3": "أعمل نحو قيادة العمليات، حيث أجمع بين الخبرة الميدانية والبيانات لجعل الفرق أسرع وأكثر موثوقية.",
+    "about.strengths": "نقاط القوة", "about.education": "التعليم",
+    "exp.eyebrow": "الخبرات", "exp.title": "من أرض المستودع إلى حل المشكلات", "exp.current": "الوظيفة الحالية",
+    "proj.eyebrow": "المشاريع", "proj.title": "أدوات طوّرتها لأرض العمل", "proj.lead": "أدوات ويب تعمل فعليًا صمّمتها وبنيتها، وكلها بالعربية والإنجليزية. الأرقام داخلها بيانات توضيحية.",
+    "proj.problem": "المشكلة", "proj.did": "ما قمت به", "proj.result": "النتيجة", "proj.view": "افتح الأداة",
+    "cert.eyebrow": "الشهادات", "cert.title": "تعلّم يمكن التحقق منه",
+    "cert.inprogress": "قيد الإنجاز", "cert.all": "عرض الشارات العشر على Credly", "cert.verify": "تحقق", "cert.nolink": "الرابط متاح عند الإكمال",
+    "contact.eyebrow": "تواصل", "contact.title": "لنتحدث عن فريق العمليات لديكم",
+    "contact.lead": "أبحث عن فرص في العمليات والخدمات اللوجستية والتجارة الإلكترونية وسلاسل الإمداد في المملكة. راسلني أو احجز مكالمة تعارف قصيرة.",
+    "contact.or": "أو انسخ بريدي الإلكتروني:", "contact.copy": "نسخ", "contact.copied": "تم النسخ",
+    "footer.loc": "مقيم في المملكة العربية السعودية",
+    "lang.label": "English", "lang.aria": "View the page in English"
+  }
+};
+
+/* ---------- Rendering (no need to edit below) ---------- */
+let lang = "en";
+try { if (localStorage.getItem("lang") === "ar") lang = "ar"; } catch (e) {}
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const t = k => UI[lang][k];
+
+function render() {
+  const root = document.documentElement;
+  root.lang = lang;
+  root.dir = lang === "ar" ? "rtl" : "ltr";
+
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = t(el.dataset.i18nHtml); });
+
+  // CV: main button matches the page language, second chip offers the other one
+  const L = SITE.links;
+  document.querySelectorAll('[data-link="cv"]').forEach(a => { a.href = lang === "ar" ? L.cvAr : L.cv; a.hreflang = lang; });
+  document.querySelectorAll('[data-link="cv-other"]').forEach(a => { a.href = lang === "ar" ? L.cv : L.cvAr; a.hreflang = lang === "ar" ? "en" : "ar"; });
+  document.getElementById("cvOtherLabel").lang = lang === "ar" ? "en" : "ar";
+
+  const lb = document.getElementById("langBtn");
+  lb.textContent = t("lang.label");
+  lb.setAttribute("aria-label", t("lang.aria"));
+  lb.lang = lang === "en" ? "ar" : "en";
+
+  document.getElementById("tags").innerHTML =
+    SITE.strengths.map(s => `<li>${esc(s[lang])}</li>`).join("");
+
+  document.getElementById("eduDegree").textContent = SITE.education.degree[lang];
+  document.getElementById("eduDetail").textContent = SITE.education.detail[lang];
+
+  document.getElementById("timeline").innerHTML = SITE.experience.map(x => `
+    <li class="tl-item${x.current ? " current" : ""}">
+      ${x.current || x.note ? `<span class="labels">${x.current ? `<span class="step-label">${esc(t("exp.current"))}</span>` : ""}${x.note ? `<span class="note-label">${esc(x.note[lang])}</span>` : ""}</span>` : ""}
+      <span class="tl-dates">${esc(x.dates[lang])}</span>
+      <h3>${esc(x.title[lang])}</h3>
+      <span class="tl-org">${esc(x.org[lang])}</span>
+      <ul>${x.points.map(p => `<li>${esc(p[lang])}</li>`).join("")}</ul>
+    </li>`).join("");
+
+  document.getElementById("projectCards").innerHTML = SITE.projects.map(p => `
+    <article class="card">
+      <h3>${esc(p.title[lang])}</h3>
+      <dl>
+        <div><dt>${esc(t("proj.problem"))}</dt><dd>${esc(p.problem[lang])}</dd></div>
+        <div><dt>${esc(t("proj.did"))}</dt><dd>${esc(p.did[lang])}</dd></div>
+        <div class="result"><dt>${esc(t("proj.result"))}</dt><dd>${esc(p.result[lang])}</dd></div>
+      </dl>
+      ${p.url ? `<a class="card-link" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t("proj.view"))} <span class="flip" aria-hidden="true">↗</span><span class="sr-only"> – ${esc(p.title[lang])}</span></a>` : ""}
+    </article>`).join("");
+
+  document.getElementById("certList").innerHTML = SITE.certifications.map(c => `
+    <li class="cert">
+      <div class="cert-main">
+        <span class="cert-name">${esc(c.name[lang])}${c.status === "in-progress" ? ` <span class="badge">${esc(t("cert.inprogress"))}</span>` : ""}</span>
+        <span class="cert-meta">${esc(c.issuer)}${c.status === "in-progress" ? "" : " · " + esc(c.date[lang])}</span>
+      </div>
+      ${c.url
+        ? `<a class="cert-link" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t("cert.verify"))} <span class="flip" aria-hidden="true">↗</span></a>`
+        : `<span class="cert-link disabled">${esc(t("cert.nolink"))}</span>`}
+    </li>`).join("");
+}
+
+function wireLinks() {
+  const L = SITE.links;
+  document.querySelectorAll('[data-link="email"]').forEach(a => a.href = "mailto:" + L.email);
+  document.querySelectorAll('[data-link="booking"]').forEach(a => a.href = L.booking);
+  document.querySelectorAll('[data-link="linkedin"]').forEach(a => a.href = L.linkedin);
+
+  document.getElementById("emailText").textContent = L.email;
+  document.getElementById("credlyLink").href = SITE.credly;
+  document.getElementById("year").textContent = new Date().getFullYear();
+}
+
+document.getElementById("langBtn").addEventListener("click", () => {
+  lang = lang === "en" ? "ar" : "en";
+  try { localStorage.setItem("lang", lang); } catch (e) {}
+  render();
+});
+
+document.getElementById("copyBtn").addEventListener("click", () => {
+  const btn = document.getElementById("copyBtn");
+  const done = () => { btn.textContent = t("contact.copied"); setTimeout(() => btn.textContent = t("contact.copy"), 1800); };
+  const fallback = () => {
+    const r = document.createRange(); r.selectNodeContents(document.getElementById("emailText"));
+    const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+  };
+  try { navigator.clipboard.writeText(SITE.links.email).then(done, fallback); } catch (e) { fallback(); }
+});
+
+wireLinks();
+render();
+</script>
+</body>
+</html>
